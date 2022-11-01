@@ -1,0 +1,3 @@
+Welcome to helm first project
+your release is {{ .Release.Name}}
+your chart is {{ .Chart.Name}}

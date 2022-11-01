@@ -1,0 +1,15 @@
+type: Namespace
+name: firstnamespace
+labels:
+  name: nginx
+kind: Deployment
+podname: nginx-deployment  
+appname: nginx
+containername: nginxcontainer
+imagename: "nginx:1.14.2"
+portnumber: 80
+replicasset: 2
+service:
+  name: my-nginx
+ports:
+  port: 80
